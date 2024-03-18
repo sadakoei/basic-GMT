@@ -308,7 +308,7 @@ transition:.5s ease;
 }
 .offer__wrapper{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 gap: 10rem;
 }
 .offer__text h2{
@@ -371,6 +371,7 @@ gap: 10rem;
   gap:2rem;
   max-width:75rem;
   margin:0 auto;
+  
 }
 .how__text h2{
   color:var(--light);
@@ -381,6 +382,7 @@ gap: 10rem;
 .how__text p{
   color:var(--light);
   text-align:justify;
+  flex-direction:column;
   
 }
 /* HOW MOBILE */
@@ -467,6 +469,7 @@ line-height: 1;
   font-size: 1.5rem;
   font-weight: 200;
   padding-top: 3rem;
+  flex-direction: column;
 }
 .footer__nav ul.nav li:last-child a {
   color: var(--primary);
@@ -483,6 +486,7 @@ line-height: 1;
   color: var(--light);
   background: var(--primary);
   transition: 0.5s ease;
+
 }
 .footer__nav p {
   margin-top: -3rem;
